@@ -7,7 +7,7 @@ angular.module('lesleys-books', [
   // Now set up the states
   $stateProvider
     .state('current-year-bookshelf', {
-      url: "/bookshelf",
+      url: "/",
       template: "<current-year-bookshelf></current-year-bookshelf>"
     })
     .state('all-time-favourites', {
