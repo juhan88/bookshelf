@@ -36,7 +36,7 @@ class allTimeFavouritesController {
   angular.module('lesleys-books')
     .component('allTimeFavourites', {
       restrict: 'E',
-      templateUrl: 'components/allTimeFavourites/index.html',
+      templateUrl: 'bookshelf/components/allTimeFavourites/index.html',
       controller: allTimeFavouritesController,
       controllerAs: '$ctrl'
     });

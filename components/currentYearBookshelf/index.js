@@ -37,7 +37,7 @@ class currentYearBookshelfController {
 angular.module('lesleys-books')
   .component('currentYearBookshelf', {
     restrict: 'E',
-    templateUrl: 'components/currentYearBookshelf/index.html',
+    templateUrl: 'bookshelf/components/currentYearBookshelf/index.html',
     controller: currentYearBookshelfController,
     controllerAs: '$ctrl'
   });
